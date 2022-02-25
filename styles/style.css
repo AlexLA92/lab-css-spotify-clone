@@ -6,3 +6,120 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top:0;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav {
+    align-items: center;
+    padding-right: 20px;
+}
+
+nav li {
+    display:inline-block;
+    margin-left:30px;
+}
+
+img.nav-logo {
+    height: 50px;
+}
+
+.top-section{
+    margin-top: 50px;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.top-section div {
+    width: 400px;
+}
+
+.top-section h1 {
+    font-size: 40px;
+}
+
+.top-section p {
+    font-size: 20px;
+}
+
+.discovery-section{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+}
+.discovery-section .article-container{
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+.discovery-section img{
+    height:65px
+}
+
+.discovery-section .article-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    margin: 10px;
+}
+
+.article-item h1{
+    color: #00B172;
+}
+
+.article-item p{
+    width: 70%;
+}
+
+
+.artist-section{
+    height: 350px;
+    background-color: #00B172;
+    position: relative;
+}
+
+.artist-section-container img{
+    height: 300px;
+    background-color: #00B172;
+}
+
+.bg-img {
+    position: absolute; 
+    width: 50px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.artist-section-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.artist-section-items{
+    width: 150px;
+    height: 300px;
+    text-align: left;
+
+}
