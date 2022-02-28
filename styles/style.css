@@ -6,9 +6,11 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 * {
     box-sizing: border-box;
+    font-family: 'Roboto';
 }
 
 header {
@@ -94,19 +96,25 @@ img.nav-logo {
 
 
 .artist-section{
-    height: 350px;
     background-color: #00B172;
     position: relative;
+    color:white;
+    padding: 3rem;
+}
+
+.artist-section h1{
+    margin: 0;
+    border-bottom: 2px white solid;
 }
 
 .artist-section-container img{
-    height: 300px;
+    height: 350px;
     background-color: #00B172;
 }
 
 .bg-img {
     position: absolute; 
-    width: 50px;
+    width: 100px;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
@@ -115,11 +123,19 @@ img.nav-logo {
 .artist-section-container{
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
 .artist-section-items{
-    width: 150px;
-    height: 300px;
+    width: 300px;
     text-align: left;
+}
 
+.artist-section-image{
+    width: 300px;
+    text-align: center;
+}
+
+.artist-section-items div{
+    width: 200px;
 }
